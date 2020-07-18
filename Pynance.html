@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Masters Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Joe Osborne</a>
+				<!-- <nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav> -->
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Masters Research</h1>
+							<span class="image fit"><img src="images/RealLifeScan.png" alt="" /></span>
+							<p>Researching as part of the wider <a href="mimreesystem.co.uk">MIMREE project</a>, funded by <a href="innovateuk.blog.gov.uk">InnovateUk</a>,
+								my project aimed to produce a drone that could autonomously land an inspection, maintenance and repair robot onto an offshore wind turbine blade.
+								In the advent of the COVID-19 lockdown, I realsied these was a shrinking oppurtunity to record experimental data for 
+								this project. So, my focus shifted from software development to flight hardware readiness, allowing for the drone to take measurements which
+								could be processed later. The image above was taken during this test - the shaded blue area shows the swath of the LiDAR unit.  
+							</p>
+							<span class="image fit"><img src="images/3DView2.png" alt="" /></span>
+							<p>Initiating the project with a thorough literature review served as my introduction to the field of Computer Vision.
+								It was clear that the project required a filtering algotithm to isolate the point clouds pertaining to the target,
+								before attempting to fit the refined, planar data points to the 3D model of the wing. This fit would allow the drone
+								to localise it's position normal to scanning plane, whilst the ranging and sweep angle of the laser range finder allowed
+								the drone to recognise it's position in this plane. The graphic above shows a filtered experimental point cloud (red 
+								circles) fitted (dashed red line) to 3D model of the wing (black). The blue lines depict the landing path and final 
+								landing zone. 
+							</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
